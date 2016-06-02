@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Typography</title>
+<title>资本</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
@@ -28,6 +27,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 </script>
+<!---设置页面整体、下拉菜单层风格--->
+<style type="text/css">
+	/*创建非默认字体格式*/
+	YaHei {font-family:Microsoft YaHei}
+	Cambria {font-family:Cambria Math}
+	YaHei_18 {font-family:Microsoft YaHei font-size:18px}
+	YaHei_20_bold {font-family:Microsoft YaHei;font-size:20px;font-weight:bold}
+	YaHei_40 {font-family:Microsoft YaHei font-size:40px}
+	YaHei_Black_24 {font-family:Microsoft YaHei;color:#FFFFFF;font-size:24px}
+	YaHei_White {font-family:Microsoft YaHei;color:#FFFFFF}
+    YaHei_White_24 {font-family:Microsoft YaHei;color:#FFFFFF;font-size:24px}
+    YaHei_White_24_bold {font-family:Microsoft YaHei;color:#FFFFFF;font-size:24px;font-weight:bold}
+	YaHei_White_40_bold {font-family:Microsoft YaHei;color:#FFFFFF;font-size:40px;font-weight:bold}
+	YaHei_White_70_bold {font-family:Microsoft YaHei;color:#FFFFFF;font-size:70px;font-weight:bold}
+</style>
+
 </head>
 <body>
 	<!-- header-section-starts -->
@@ -36,21 +51,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="home">
 					<a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
 			</div>
-			<div class="header-top">			
+			<div class="header-top">
 				<div class="social-icons">
-					<i class="facebook"></i>
-					<i class="twitter"></i>
-					<i class="googlepluse"></i>
-				</div>
-				<span class="menu"><img src="images/nav.png" alt=""/></span>
+					</div>
+			<span class="menu"><img src="images/nav.png" alt=""/></span>
 				<div class="top-menu">
 					<ul>
 					<nav class="cl-effect-13">
-						<li><a href="about.html">About</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="index.html">News</a></li>
-						<li><a class="active" href="typography.html">Typo</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="Introduction.html"><YaHei_White>导 言</YaHei_White></a></li>
+						<li><a href="Model.html"><YaHei_White>模 型</YaHei_White></a></li>
+						<li><a href="Technology.html"><YaHei_White>技 术</YaHei_White></a></li>
+						<li><a href="Labor.html"><YaHei_White>劳动力</YaHei_White></a></li>
+						<li><a href="Capital.html"><YaHei_White>资 本</YaHei_White></a></li>
+						<li><a href="About.html"><YaHei_White>关 于</YaHei_White></a></li>
 					</nav>
 					</ul>
 				</div>
@@ -67,408 +80,107 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"></div>
 			<div class="banner-info text-center">
-				<h1><a href="index.html">Gardening</a></h1>
+				<h1><a href="index.html"> </a></h1>
 			</div>
 		</div>
 	</div>
 	<!-- header-section-ends -->
-	<div class="typrography">
-	 <div class="container">
-	      <h3 class="type text-center">Typography</h3>
-		 <div class="grid_3 grid_4">
-		     <h3 class="first">Headings</h3>
-		     <div class="bs-example">
-				 <table class="table">
-				  <tbody>
-					<tr>
-					  <td><h1 id="h1.-bootstrap-heading">h1. Bootstrap heading<a class="anchorjs-link" href="#h1.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h1></td>
-					  <td class="type-info">Semibold 36px</td>
-					</tr>
-					<tr>
-					  <td><h2 id="h2.-bootstrap-heading">h2. Bootstrap heading<a class="anchorjs-link" href="#h2.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h2></td>
-					  <td class="type-info">Semibold 30px</td>
-					</tr>
-					<tr>
-					  <td><h3 id="h3.-bootstrap-heading">h3. Bootstrap heading<a class="anchorjs-link" href="#h3.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h3></td>
-					  <td class="type-info">Semibold 24px</td>
-					</tr>
-					<tr>
-					  <td><h4 id="h4.-bootstrap-heading">h4. Bootstrap heading<a class="anchorjs-link" href="#h4.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h4></td>
-					  <td class="type-info">Semibold 18px</td>
-					</tr>
-					<tr>
-					  <td><h5 id="h5.-bootstrap-heading">h5. Bootstrap heading<a class="anchorjs-link" href="#h5.-bootstrap-heading"><span class="anchorjs-icon"></span></a></h5></td>
-					  <td class="type-info">Semibold 14px</td>
-					</tr>
-					<tr>
-					  <td><h6>h6. Bootstrap heading</h6></td>
-					  <td class="type-info">Semibold 12px</td>
-					</tr>
-				  </tbody>
-				 </table>
-			 </div>
-	      </div>
-		 		
-		  <div class="grid_3 grid_5">
-			 <h3>Progress Bars</h3>
-			  <div class="tab-content">
-				 <div class="tab-pane active" id="domprogress">
-					 <div class="progress">    
-					      <div class="progress-bar progress-bar-primary" style="width: 20%"></div>
-					 </div>
-					 <p>Info with <code>progress-bar-info</code> class.</p>
-					 <div class="progress">    
-						 <div class="progress-bar progress-bar-info" style="width: 60%"></div>
-					 </div>
-					 <p>Success with <code>progress-bar-success</code> class.</p>
-					 <div class="progress">
-						 <div class="progress-bar progress-bar-success" style="width: 30%"></div>
-					 </div>
-					 <p>Warning with <code>progress-bar-warning</code> class.</p>
-					 <div class="progress">
-						 <div class="progress-bar progress-bar-warning" style="width: 70%"></div>
-					 </div>
-					 <p>Danger with <code>progress-bar-danger</code> class.</p>
-					 <div class="progress">
-						 <div class="progress-bar progress-bar-danger" style="width: 50%"></div>
-					 </div>
-					 <p>Inverse with <code>progress-bar-inverse</code> class.</p>
-					 <div class="progress">
-						 <div class="progress-bar progress-bar-inverse" style="width: 40%"></div>
-					 </div>
-					 <p>Inverse with <code>progress-bar-inverse</code> class.</p>
-					 <div class="progress">
-						 <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
-						 <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
-						 <div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
-					 </div>
-				   </div>
-			   </div>
-		   </div>
-		   
-		   <div class="grid_3 grid_5">
-			 <h3>Pagination</h3>
-			 <div class="col-md-6">
-				  <nav>
-				  <ul class="pagination pagination-lg">
-					<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-				  </ul>
-				  </nav>
-				  <nav>
-				  <ul class="pagination">
-					<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-				  </ul>
-				 </nav>
-				 <nav>
-				   <ul class="pagination pagination-sm">
-					<li><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-				  </ul>
-				 </nav>				 
-			 </div>
-			 <div class="col-md-6">
-					<ul class="pagination pagination-lg">
-									<li class="disabled"><a href="#"><span aria-hidden="true">«</span></i></a></li>
-									<li class="active"><a href="#">1</a></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
-									<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-								</ul>
-				<nav>
-				  <ul class="pagination">
-					<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-					<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-				 </ul>
-			   </nav>
-				 <ul class="pagination pagination-sm">
-					<li class="disabled"><a href="#"><span aria-hidden="true">«</span></i></a></li>
-					<li class="active"><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-				</ul>
-				</div>
-			   <div class="clearfix"> </div>
-		 </div>
-		 <div class="grid_3 grid_5">
-			 <h3>Breadcrumbs</h3>
-			   <ol class="breadcrumb">
-			  <li class="active">Home</li>
-			</ol>
-			<ol class="breadcrumb">
-			  <li><a href="#">Home</a></li>
-			  <li class="active">Library</li>
-			</ol>
-			<ol class="breadcrumb">
-			  <li><a href="#">Home</a></li>
-			  <li><a href="#">Library</a></li>
-			  <li class="active">Data</li>
-			</ol>
-		 </div>
-	   <div class="grid_3 grid_5">
-			 <h3>Badges</h3>
-				<div class="col-md-6">
-					<p>Add modifier classes to change the appearance of a badge.</p>
-					  <table class="table table-bordered">
-						<thead>
-							<tr>
-								<th width="50%">Classes</th>
-								<th width="50%">Badges</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>No modifiers</td>
-								<td><span class="badge">42</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-primary</code></td>
-								<td><span class="badge badge-primary">1</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-success</code></td>
-								<td><span class="badge badge-success">22</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-info</code></td>
-								<td><span class="badge badge-info">30</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-warning</code></td>
-								<td><span class="badge badge-warning">412</span></td>
-							</tr>
-							<tr>
-								<td><code>.badge-danger</code></td>
-								<td><span class="badge badge-danger">999</span></td>
-							</tr>
-						</tbody>
-					  </table>                    
-				</div>
-				<div class="col-md-6">
-				  <p>Easily highlight new or unread items with the <code>.badge</code> class</p>
-					<div class="list-group list-group-alternate"> 
-						<a href="#" class="list-group-item"><span class="badge">201</span> <i class="ti ti-email"></i> Inbox </a> 
-						<a href="#" class="list-group-item"><span class="badge badge-primary">5021</span> <i class="ti ti-eye"></i> Profile visits </a> 
-						<a href="#" class="list-group-item"><span class="badge">14</span> <i class="ti ti-headphone-alt"></i> Call </a> 
-						<a href="#" class="list-group-item"><span class="badge">20</span> <i class="ti ti-comments"></i> Messages </a> 
-						<a href="#" class="list-group-item"><span class="badge badge-warning">14</span> <i class="ti ti-bookmark"></i> Bookmarks </a> 
-						<a href="#" class="list-group-item"><span class="badge badge-danger">30</span> <i class="ti ti-bell"></i> Notifications </a> 
-					</div>
-			   </div>
-			   <div class="clearfix"> </div>
-			 </div>
-			 <div class="grid_3 grid_5">
-				 <h3>Tabs</h3>
-				   <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-			<ul id="myTab" class="nav nav-tabs" role="tablist">
-			  <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Home</a></li>
-			  <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Profile</a></li>
-			  <li role="presentation" class="dropdown">
-				<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown" aria-controls="myTabDrop1-contents" aria-expanded="false">Dropdown <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents">
-				  <li><a href="#dropdown1" tabindex="-1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="dropdown1">@fat</a></li>
-				  <li><a href="#dropdown2" tabindex="-1" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2">@mdo</a></li>
-				</ul>
-			  </li>
-			</ul>
-			<div id="myTabContent" class="tab-content">
-			  <div role="tabpanel" class="tab-pane fade" id="home" aria-labelledby="home-tab">
-				<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-			  </div>
-			  <div role="tabpanel" class="tab-pane fade active in" id="profile" aria-labelledby="profile-tab">
-				<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-			  </div>
-			  <div role="tabpanel" class="tab-pane fade" id="dropdown1" aria-labelledby="dropdown1-tab">
-				<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-			  </div>
-			  <div role="tabpanel" class="tab-pane fade" id="dropdown2" aria-labelledby="dropdown2-tab">
-				<p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
-			  </div>
+	<!-- content-section-starts -->
+ <div class="main">
+    <div class="about-content text-center">
+			<div class="container">
+					<div class="about-top">
+
+						<p align="left"><YaHei>
+						</YaHei></p>
+
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp
+						在索洛增长模型中，一个经济的储蓄率决定了其资本增长规模，储蓄率越高、资本存量越多，产出水平也越高。同时，储蓄率的提高与人均收入的增加有着密不可分的联系。当前中国仍处于经济起飞的阶段，因此储蓄率会随着人均收入的增加而增加。因此，我们可以近似得到，其中，为比例系数，为人均收入。下面探讨中国人均收入的发展前景和对应举措。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						说到人均收入，不得不提一个经典的“理论模型”：中等收入陷阱。中国人均收入处在中等收入陷阱的瓶口，对于当前中国经济来说，跨越中等收入陷阱是个关键的任务。因此，在后文对资本的分析中，我们将把论述的重点放在我国是否能够跨过“中等收入陷阱” 这一争议性议题上，同时通过问卷调查研究消费者对于“中国制造”的购买偏好，衡量资本存量对我国制造业发展的作用。
+						</YaHei></p>
+						
+						<p align="left"><YaHei_20_bold>
+						“中等收入陷阱”分析
+						</YaHei_20_bold></p>
+
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp
+						中等收入陷阱是指一个国家（由于某种优势）达到了一定收入水平，将停留在这个水平的情况。衡量中等收入的一个标准线是“人均GDP10000美元”。墨西哥、巴西等国家早在十九世纪六十年代就达到了人均GDP3000美元，然而经过了这么多年，也没能跨越中等收入标准线。他们就称为陷入了“中等收入陷阱”。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						引起中等收入陷阱的原因主要是：发展中经济体卡在劳动力成本上涨和成本竞争力下降的中间，无法与高技能创新的先进经济体，或低收入、低工资的经济体在制成品的廉价生产上相竞争。可以看出，中等收入陷阱问题本质上是制造业的问题。
+						</YaHei></p>
+
+						<p align="left"><YaHei_20_bold>
+						中国是否面临“中等收入陷阱”
+						</YaHei_20_bold></p>
+
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp
+						2015年，我国人均GDP达到8016美元，属于偏上中等收入，可以说正是面临“中等收入陷阱”危机的时候。然而，只要我们能够保持6.5%的经济增速，在2020年，我们就将达到人均GDP10000美元，从而迈过中等收入这个坎。这个增速指标的实现还是比较乐观的。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						从上述三个国家和地区的经济发展史分析得到，一个国家陷入“中等收入陷阱”的原因可以分为两部分：
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						（1）	产业结构不合理
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						（2）	社会矛盾
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						对于当前的中国来说，虽然贫富差距依然较大，但中央政府也在积极采取措施解决这方面的问题。整体来说，中国的社会矛盾还不至于激化，中国社会将在很长一段时间内维持较为平稳的状态。因此，对于中国来说，最需要关注的问题是产业结构的问题。说白了，就是制造业的结构。制造业本身决定了中国能否在“中等收入陷阱”的坎上完成飞跃，决定了中国能否实现资本存量的继续大规模增长。而这些，又反过来作用于制造业，决定了中国制造业是否会面临全面危机。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						那么，从制造业的结构上看，中国真的面临“中等收入陷阱”的危机吗？
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						我们认为，从制造业的角度看，还没有必要过于担心“中等收入陷阱”的问题。根据工信部规划司对《中国制造2025》的解读，我国制造业前景比较乐观。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						i)	我国已成为世界制造业第一大国
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						ii)	自主创新能力显著增强，部分关键领域技术水平位居世界前列
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						首先，我国的社会要素不断向企业聚集。我国在载人航天、探月工程、载人深潜、新支线飞机、大型液化天然气船（LNG）、高速轨道交通等领域技术取得突破性进展，并且在特高压输变电设备、百万吨乙烯成套装备、风力发电设备、千万亿次超级计算机等设备产品技术水平已跃居世界前列。同时，我国的R&D（research and development）经费投入总量位居世界第三。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						iii)	产业结构调整取得重要进展，工业发展的质量和效益明显提升
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						到2014年，我国智能制造、高速轨道交通、海洋工程等高端装备制造业产值占装备制造业比重超过10%。电力、煤炭、炼铁、；炼钢等21个行业共淘汰电力落后产能544万千瓦、煤炭14578万吨、炼铁618万吨、炼钢884万吨。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						iv)	工业资源能源消耗强度逐步降低，绿色发展能力明显增强
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						根据历年国民经济和社会发展统计公报的数据，我国万元工业增加值用水量在逐年下降。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						v)	产业集聚集约发展水平不断提升，工业空间布局不断优化。
+						</YaHei></p>
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp 
+						根据以上的数据可以看出，我国的制造业正在向着高新技术产业为主导这一方向转变，国家在制造业的技术创新方面的投入也逐渐增多。按照这一趋势，国家的制造业升级换代只是时间问题。因此，单从制造业角度上看，我国陷入“中等收入陷阱”中的可能性并不大。
+						</YaHei></p>
+
+						<p align="left"><YaHei_20_bold>
+						中国如何避免落入“中等收入陷阱”
+						</YaHei_20_bold></p>
+
+						<p align="left"><YaHei> &nbsp &nbsp &nbsp
+						结合对国外“中等收入陷阱”的经验与教训，以及国内制造业的发展状况，我国要想避免“中等收入陷阱”，就要做到“调整产业结构”和“鼓励创新”。而我国正在这两个方面做出积极的努力。只要制造业能够及时升级换代，“中等收入陷阱”就可以轻松规避掉，而我国的制造业发展前景还是比较乐观的。
+						</YaHei></p>
 			</div>
-		   </div>
-		  </div>
-			 		  <section id="tables">
-          <div class="page-header">
-            <h1>Tables</h1>
-          </div>
-
-          <h2>Default styles</h2>
-          <p>For basic stylinglight padding and only horizontal add the base class <code>.table</code> to any <code>&lt;table&gt;</code>.</p>
-          <div class="bs-docs-example">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Username</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-	<hr class="bs-docs-separator">
-          <p>Add any of the following classes to the <code>.table</code> base class.</p>
-          <p>Adds zebra-striping to any table row within the <code>&lt;tbody&gt;</code> via the <code>:nth-child</code> CSS selector (not available in IE7-8).</p>
-          <div class="bs-docs-example">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Username</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p>Add borders and rounded corners to the table.</p>
-          <div class="bs-docs-example">
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Username</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td rowspan="2">1</td>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@getbootstrap</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td colspan="2">Larry the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p>Enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p>
-          <div class="bs-docs-example">
-            <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Username</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td colspan="2">Larry the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-	</div>
-</div>
-
-
-	</div>
-</div>
-
-	<!-- footer-section -->
+    </div>
+ </div>
+	<!-- content-section-ends -->
+		<!-- footer-section -->
 	<div class="footer">
 		<div class="container">
 			<div class="copyright text-center">
-				<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				<p>Copyright &copy; 2015. Bai Liu All rights reserved.</p>
 			</div>
 		</div>
 	</div>
