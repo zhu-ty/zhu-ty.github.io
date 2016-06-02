@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About</title>
+<title>Gallery</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -45,8 +45,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="top-menu">
 					<ul>
 					<nav class="cl-effect-13">
-						<li><a class="active" href="about.html">About</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a class="active" href="">Gallery</a></li>
 						<li><a href="index.html">News</a></li>
 						<li><a href="typography.html">Typo</a></li>
 						<li><a href="contact.html">Contact</a></li>
@@ -66,69 +66,141 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"></div>
 			<div class="banner-info text-center">
-				<h1><a href="index.html"> </a></h1>
+				<h1><a href="index.html">Gardening</a></h1>
 			</div>
 		</div>
 	</div>
 	<!-- header-section-ends -->
 	<!-- content-section-starts -->
- <div class="main">
-    <div class="about-content text-center">
-			<div class="who_we_are">
-			<div class="container">
-					<div class="about-top">
-						<header>
-							<h3>导 言</h3>
-						</header>
-						<h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</h5>
-						<p>Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. </p>
+    <div class="content">
+   	<div class="container">
+	<div class="gallery-head" id="portfolio">
+	<h3>gallery</h3>
+		 <div class="gallery-bottom">
+					<div class="col-md-4 gallery-left">
+						<a href="images/gl7.jpg">
+							<img src="images/gl7.jpg" alt="name" />
+						</a>
 					</div>
-					<div class="abt_img1"><img src="images/w1.jpg" alt=""></div>
-					<div class="abt_img2"><img src="images/w2.jpg" alt=""></div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/gl4.jpg">
+							<img src="images/gl4.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/gl5.jpg">
+							<img src="images/gl5.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/gl6.jpg">
+							<img src="images/gl6.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/r4.jpg">
+							<img src="images/r4.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/gl2.jpg">
+							<img src="images/gl2.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/r6.jpg">
+							<img src="images/r6.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/r3.jpg">
+							<img src="images/r3.jpg" alt="name" />
+						</a>
+					</div>
+					<div class="col-md-4 gallery-left">
+						<a href="images/gl4.jpg">
+							<img src="images/gl4.jpg" alt="name" />
+						</a>
+					</div>
 					<div class="clearfix"></div>
 			</div>
-		</div>
 
-		<div class="team">
-		<header>
-							<h3>Our Team</h3>
-						</header>
-		<section class="main">
-			
-				<ul class="ch-grid">
-					<li>
-						<div class="ch-item ch-img-1">
-							<div class="ch-info">
-								<h4>Use what you have</h4>
-								<p>by Angela Duncan <a href="#">View on Dribbble</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-2">
-							<div class="ch-info">
-								<h4>Common Causes of Stains</h4>
-								<p>by Antonio F. Mondragon <a href="#">View on Dribbble</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-3">
-							<div class="ch-info">
-								<h4>Pink Lightning</h4>
-								<p>by Charlie Wagers <a href="#">View on Dribbble</a></p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				
-			</section>
-			</div>
-    </div>
- </div>
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css"/>
+ <!-- Javascript calls -->
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+		 $('#portfolio a').Chocolat({overlayColor:'#000',leftImg:'images/leftw.gif',rightImg:'images/rightw.gif',closeImg:'images/closew.gif'});
+	   });
+</script>
+	 </div>
+</div>	
+
+	</div>
+   		<div class="gallery-top">
+   			<div class="gallery">
+		</div>
+		</div>
+   </div>
+</div>
 	<!-- content-section-ends -->
-	
+	<div class="get-in-touch">
+			<div class="container">
+				<div class="col-md-3 gin">
+					<h3>Get in Touch</h3>
+					<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspeisse eget diam</p>
+					<div class="social-icons footer-icons">
+						<i class="facebook"></i>
+						<i class="twitter"></i>
+						<i class="googlepluse"></i>
+					</div>
+				</div>
+				<div class="col-md-3 address">
+					<h3>Address</h3>
+					<address>
+						<p>10-765 mg-Road,
+						<p>Washington, DC, United States,</p>
+						<p>ud-19832-6578.</p>
+						<p class="phone"><span>Phone</span> :+1 900 876 1234</p>
+						<span class="phone">E-mail : <a href="mail-to:example@mail.com">example@mail.com</a></span>
+					</address>
+				</div>
+				<div class="col-md-6 dal">
+					<h3>Drop us a line</h3>
+					<input type="text" class="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}">
+					<input type="text" class="text" value="Last Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}">
+					<input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+					<input type="text" class="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
+					<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					<input type="submit" value="SEND">
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	<!-- footer-section -->
+	<div class="footer">
+		<div class="container">
+			<div class="copyright text-center">
+				<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- footer-section -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!----> 
+
 </body>
 </html>
