@@ -1,0 +1,130 @@
+#table-area ul{
+    display: inline;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 2em;
+}
+
+#table-area table{
+    /* display: inline-block; */
+    float: left;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-right: 2em;
+    font-size: 1em;
+    width: 32.5em;
+}
+
+#table-area th{
+    padding-left: 3%;
+    background: #FFB12B;
+    color: #ffffff;
+    border: 2px solid #FFB12B;
+    border-radius: 5px 5px 0 0;
+}
+
+#table-area td{
+    width: 75px;
+    max-width: 75px;
+    vertical-align:middle;
+}
+
+#table-area tr{
+    border: 2px solid #FFB12B;
+    border-radius: 5px 5px 0 0;
+}
+
+#table-area img{
+    max-height: 100px;
+    max-width:75px;
+}
+
+#table-area .mobimg{
+    /* width:20%; */
+    text-align: center;
+}
+
+.item-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.alert{
+    margin-left: 12.5%;
+    width: 75%;
+}
+
+.navbar{
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+.lvl{
+    float: right;
+}
+
+.moretext, .moretext:hover{
+    vertical-align: text-bottom;
+    text-decoration: none;
+    float: right;
+    margin-right: 1em;
+}
+
+#foot-area{
+    clear: both;
+}
+
+#foot-area p{
+    float: left;
+}
+
+.popover-body p{
+    margin-bottom: 0;
+}
+
+#download-area{
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    background: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Large Screen CSS Rule End */
+
+@media screen and (max-width: 500px){
+    #table-area ul{
+        display: inline-flex;
+        padding-left: 0px;
+        padding-right: 2em;
+    }
+    
+    #table-area table{
+        display: contents;
+        margin-right: 0;
+        width: 95%;
+    }
+
+    .container{
+        padding-right: 0px;
+    }
+
+    .form-control{
+        width: 90%;
+    }
+
+    .alert{
+        margin-left: 0;
+        width: 90%;
+    }
+
+    #foot-area p{
+        float:none;
+    }
+
+    #foot-area ul{
+        margin-right: 5%;
+    }
+}

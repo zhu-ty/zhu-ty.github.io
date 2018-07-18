@@ -1,6 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="">
+<title>MapleStory Database</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" charset="utf-8" />
+<link rel="stylesheet" href="css/main.css" charset="utf-8" />
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>  
+<!-- <script type="text/javascript" src="js/replace.js"></script>  
+<script type="text/javascript" src="js/gt_data.js"></script>  
+<script type="text/javascript" src="js/material2.js"></script> -->
 </head>
 <body>
-Hello, world!
-冒险岛数据库正在制作，请等待~
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">MapleStory Database</span>
+        <form id="form-search" class="form-inline" action="" method="">
+            <div class="btn-group" data-toggle="buttons">
+                <label for="search-query" class="btn btn-secondary active">
+                    <input type="radio" name="mode" value="monster" checked> By Monster Name
+                </label>
+                <label for="search-query" class="btn btn-secondary">
+                    <input type="radio" name="mode" value="item"> By Item Name
+                </label>
+            </div>
+            <label for="il" class="mx-sm-2">Item Level
+            <input class="form-control mx-sm-2" style="width: 5rem" type="number" name="il" id="il" min="0" placeholder="≥"/>
+            </label>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search..." name="query"/>
+            <button class="btn btn-outline-success my-2 mr-sm-2" type="submit">Search</button>
+            <button id="filter-btn" class="btn btn-outline-info" type="button" data-placement="bottom" title="Do not show items which" data-toggle="popover">Filter</button>
+        </form>
+    </nav>
+    <div class="container" id="table-area"></div>
+    <div class="container" id="foot-area"></div>
+    <div class="container" id="download-area">
+    <span><a href="https://pan.baidu.com/s/1boDsKB9">Download Client</a> with password wu21</span>
+    </div>
 </body>
